@@ -1,6 +1,5 @@
 import React from 'react';
 import './works.css';
-import Java from '../../assets/java.png';
 import { FaGithub } from 'react-icons/fa';
 
 const Skills = () => {
