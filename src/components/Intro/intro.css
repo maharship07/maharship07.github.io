@@ -35,11 +35,7 @@
     z-index: -1;
     object-fit: cover;
     height: 60vh;
-    /* display: block; */
-    /* max-width:500rem;
-    max-height:200rem; */
-    /* width: auto;
-    height: auto;  */
+    opacity: 70%;
 }
 
 .horizontalLine {
@@ -68,25 +64,33 @@
     transition-property: color;
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:768px) {
     .bg {
         right: -10vw;
         scale: 75%;
+        opacity: 60%;
     }
     .introContent {
-        font-size: 7vw;
+        font-size: 5vw;
     }
     .hello {
         font-size: 4.5vw;
     }
     .para {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .bg {
         right: -20vw;
-        scale: 50%
+        scale: 50%;
+        opacity: 50%;
+    }
+    .introContent {
+        text-align: left;
+        align-items: left;
+        align-self: left;
+        scale: 70%;
     }
 }
