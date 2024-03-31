@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/main/static/css/main.a6880baf.css",
-    "main.js": "/main/static/js/main.61868a12.js",
-    "static/media/profilename.png": "/main/static/media/profilename.679ab15a764d09971599.png",
-    "static/media/java.png": "/main/static/media/java.e1d8bbf7d9871b8ed0ab.png",
-    "static/media/logo.png": "/main/static/media/logo.4d7b75596504e4e506c0.png",
-    "static/media/html.png": "/main/static/media/html.5a71cde5b3a12b6668dc.png",
-    "static/media/sql.png": "/main/static/media/sql.293dee41a67f71376bea.png",
-    "static/media/css.png": "/main/static/media/css.2c57cb8ccb2bd5b368c0.png",
-    "static/media/javascript.png": "/main/static/media/javascript.00ec658773761876a8df.png",
-    "static/media/python.png": "/main/static/media/python.ae3942bfc0e534a3dc8e.png",
-    "static/media/react.png": "/main/static/media/react.b43ad478411e0dd775e6.png",
-    "static/media/Untitled_design-removebg-preview.png": "/main/static/media/Untitled_design-removebg-preview.6a4399a5d00db6ad3979.png",
-    "index.html": "/main/index.html",
-    "main.a6880baf.css.map": "/main/static/css/main.a6880baf.css.map",
-    "main.61868a12.js.map": "/main/static/js/main.61868a12.js.map"
+    "main.css": "/maharship07.github.io/static/css/main.a6880baf.css",
+    "main.js": "/maharship07.github.io/static/js/main.b6b0e4ac.js",
+    "static/media/profilename.png": "/maharship07.github.io/static/media/profilename.679ab15a764d09971599.png",
+    "static/media/java.png": "/maharship07.github.io/static/media/java.e1d8bbf7d9871b8ed0ab.png",
+    "static/media/logo.png": "/maharship07.github.io/static/media/logo.4d7b75596504e4e506c0.png",
+    "static/media/html.png": "/maharship07.github.io/static/media/html.5a71cde5b3a12b6668dc.png",
+    "static/media/sql.png": "/maharship07.github.io/static/media/sql.293dee41a67f71376bea.png",
+    "static/media/css.png": "/maharship07.github.io/static/media/css.2c57cb8ccb2bd5b368c0.png",
+    "static/media/javascript.png": "/maharship07.github.io/static/media/javascript.00ec658773761876a8df.png",
+    "static/media/python.png": "/maharship07.github.io/static/media/python.ae3942bfc0e534a3dc8e.png",
+    "static/media/react.png": "/maharship07.github.io/static/media/react.b43ad478411e0dd775e6.png",
+    "static/media/Untitled_design-removebg-preview.png": "/maharship07.github.io/static/media/Untitled_design-removebg-preview.6a4399a5d00db6ad3979.png",
+    "index.html": "/maharship07.github.io/index.html",
+    "main.a6880baf.css.map": "/maharship07.github.io/static/css/main.a6880baf.css.map",
+    "main.b6b0e4ac.js.map": "/maharship07.github.io/static/js/main.b6b0e4ac.js.map"
   },
   "entrypoints": [
     "static/css/main.a6880baf.css",
-    "static/js/main.61868a12.js"
+    "static/js/main.b6b0e4ac.js"
   ]
 }
