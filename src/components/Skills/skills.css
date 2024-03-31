@@ -1,0 +1,62 @@
+#skills {
+    overflow: hidden;
+    width: auto;
+    max-width: 100rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(236, 194, 194);
+}
+
+#title {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(236, 194, 194);
+}
+
+.skill {
+    max-width: 150px; /* Adjust the max-width as needed */
+    transition: transform 0.35s ease;
+    font-weight: 200;
+    font-size: 2rem;
+    color: rgb(236, 194, 194);
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background: rgb(39, 38, 38);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.skill:hover {
+    transform: scale(1.2); /* Enlarge the tile on hover */
+}
+
+.skill img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.skill p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(39, 38, 38, 0.8); /* Semi-transparent background for text */
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(236, 194, 194);
+    transition: bottom 0.35s ease;
+    text-align: center;
+}

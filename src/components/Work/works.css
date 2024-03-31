@@ -1,0 +1,49 @@
+#work {
+    overflow: hidden;
+    width: auto;
+    max-width: 100rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(236, 194, 194);
+}
+
+#title {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(236, 194, 194);
+}
+
+.projectMessage {
+    text-align: left;
+}
+
+.projectLink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Center both icon and text vertically */
+    text-decoration: none;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: #333;
+    padding: 20px 20px;
+    margin: 30px;
+    transition: transform 0.35s ease;
+}
+
+.projectLink:hover {
+    transform: scale(1.2); /* Enlarge the tile on hover */
+}
+
+#project {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+

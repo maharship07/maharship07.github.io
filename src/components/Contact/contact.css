@@ -1,0 +1,75 @@
+#contact {
+    padding: 40px;
+    text-align: center;
+    max-width: 50rem; /* Set the maximum width to match the previous sections */
+    height: 75vh;
+    margin: 0 auto; /* Center the contact section */
+    overflow: hidden;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    margin: 0 auto;
+    color: rgb(236, 194, 194);
+}
+
+#title {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(236, 194, 194);
+}
+
+#contactMessage {
+    text-align: left;
+    padding-top: 0.7rem;
+    padding-bottom: 1.5rem;
+}
+
+#contact h2 {
+    margin-bottom: px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    color: white;
+    background: rgb(40,40,40);
+    border: none;
+}
+
+#message {
+    height: 8rem;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: rgb(124, 60, 60);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}

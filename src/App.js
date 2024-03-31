@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// This is the main react file
+import Navbar from './components/NavBar/navbar';
+import Socials from './components/Socials/social';
+import Intro from './components/Intro/intro';
+import About from './components/About/about';
+import Skills from './components/Skills/skills';
+import Works from './components/Work/works'
+import Contact from './components/Contact/contact';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Intro/>
+      <About/>
+      <Skills/>
+      <Works/>
+      <Contact/>
+      <Socials/>
     </div>
   );
 }
