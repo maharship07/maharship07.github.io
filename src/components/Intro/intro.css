@@ -108,6 +108,7 @@
 @media screen and (max-width: 768px) {
     .bg {
         right: -10vw;
+        top: 20vw;
         opacity: 60%;
         padding: 0;
         transform: scale(0.75);
@@ -129,11 +130,7 @@
 
 @media screen and (max-width: 600px) {
     .bg {
-        right: 0vw;
-        top: 40vw;
-        opacity: 50%;
-        padding: 0;
-        transform: scale(0.5);
+        display: none;
     }
 
     .introContent {
