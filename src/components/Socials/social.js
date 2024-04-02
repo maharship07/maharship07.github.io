@@ -24,7 +24,7 @@ const SocialMedia = () => {
                     </a>
                 </li>
                 <li className='social'>
-                    <a className="icon" id='icon4' href="../../../static/resume.pdf" target="_blank">
+                    <a className="icon" id='icon4' href="../../assets/resume.pdf" target="_blank">
                         <span>Resume</span> <FaFileAlt size={24} />
                     </a>
                 </li>

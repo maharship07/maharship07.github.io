@@ -21,7 +21,7 @@ const MobSocials = () => {
                 </a>
             </li>
             <li className='socialMenu'>
-                <a className="listMenuIcon" id='icon4' href="../../../static/resume.pdf" target="_blank">
+                <a className="listMenuIcon" id='icon4' href="../../assets/resume.pdf" target="_blank">
                     <FaFileAlt size={24} style={{ color: '#737779' }} />
                 </a>
             </li>
