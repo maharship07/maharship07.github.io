@@ -1,6 +1,5 @@
 import React from 'react'
 import './intro.css'
-// TODO - Change the image
 import bg from '../../assets/profilename.png'
 
 const Intro = () => {

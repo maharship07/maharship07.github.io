@@ -5,8 +5,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 0 auto;
     color: rgb(236, 194, 194);
@@ -28,7 +28,7 @@
 .projectLink {
     display: flex;
     justify-content: flex-end;
-    align-items: center; /* Center both icon and text vertically */
+    align-items: center;
     text-decoration: none;
     border-radius: 0.7rem;
     color: #fff;
@@ -39,7 +39,7 @@
 }
 
 .projectLink:hover {
-    transform: scale(1.2); /* Enlarge the tile on hover */
+    transform: scale(1.2);
 }
 
 #project {

@@ -24,8 +24,8 @@
     width: auto;
     text-align: left;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    gap: 20px; /* Gap between columns */
+    justify-content: center;
+    gap: 20px;
 }
 
 .intro {
@@ -34,7 +34,7 @@
     color: rgb(236, 194, 194);
     width: auto;
     max-width: 50rem;
-    flex: 1; /* Distribute space evenly among columns */
+    flex: 1;
     padding: 1.5rem 2rem;
     display: flex;
     margin: 1rem;
@@ -47,7 +47,7 @@
     font-size: 1rem;
     width: auto;
     max-width: 50rem;
-    flex: 1; /* Distribute space evenly among columns */
+    flex: 1;
     padding: 1.5rem 2rem;
     display: flex;
     margin: 1rem;
@@ -70,7 +70,6 @@
     }
     .columns {
         flex-direction: column;
-        /* scale: 120% */
     }
     .about {
         height: 100%;

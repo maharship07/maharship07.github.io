@@ -50,7 +50,6 @@
     font-size: 1.75rem;
     font-weight: 100;
 }
-/* TODO - maybe white with black border transitions? */
 .introName {
     color: #e06c6a;
     font-weight: 100;
@@ -74,7 +73,7 @@
     opacity: 70%;
     transform-origin: top right;
     transform: scale(1);
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Added opacity transition */
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .introContent {
@@ -86,13 +85,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: font-size 0.3s ease, padding 0.3s ease; /* Added transitions */
+    transition: font-size 0.3s ease, padding 0.3s ease;
 }
 
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
-    transition: font-size 0.3s ease; /* Added font-size transition */
+    transition: font-size 0.3s ease;
 }
 
 .para {
@@ -102,7 +101,7 @@
     width: fit-content;
     max-width: 58rem;
     padding: 0.4rem 0rem;
-    transition: font-size 0.3s ease, padding 0.3s ease; /* Added transitions */
+    transition: font-size 0.3s ease, padding 0.3s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -134,7 +133,7 @@
     }
 
     .introContent {
-        font-size: 7vw; /* Adjusted for smaller screens */
+        font-size: 7vw;
         text-align: left;
         align-items: left;
         align-self: left;
@@ -143,10 +142,10 @@
     }
 
     .hello {
-        font-size: 6.5vw; /* Adjusted for smaller screens */
+        font-size: 6.5vw;
     }
 
     .para {
-        font-size: 3vw; /* Adjusted for smaller screens */
+        font-size: 3vw;
     }
 }
