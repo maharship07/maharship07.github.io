@@ -64,39 +64,92 @@
     transition-property: color;
 }
 
-@media screen and (max-width:1650px) {
-    .introContent {
-        padding: 2rem 3rem;
-    }
+.bg {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+    opacity: 70%;
+    transform-origin: top right;
+    transform: scale(1);
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Added opacity transition */
 }
 
-@media screen and (max-width:768px) {
+.introContent {
+    height: 75vh;
+    width: auto;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: font-size 0.3s ease, padding 0.3s ease; /* Added transitions */
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+    transition: font-size 0.3s ease; /* Added font-size transition */
+}
+
+.para {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 0.5pt;
+    width: fit-content;
+    max-width: 58rem;
+    padding: 0.4rem 0rem;
+    transition: font-size 0.3s ease, padding 0.3s ease; /* Added transitions */
+}
+
+@media screen and (max-width: 768px) {
     .bg {
         right: -10vw;
-        scale: 75%;
         opacity: 60%;
+        padding: 0;
+        transform: scale(0.75);
     }
+
     .introContent {
         font-size: 5vw;
+        padding: 2rem 3rem;
     }
+
     .hello {
         font-size: 4.5vw;
     }
+
     .para {
         font-size: 2vw;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     .bg {
-        right: -20vw;
-        scale: 50%;
+        right: 0vw;
+        top: 40vw;
         opacity: 50%;
+        padding: 0;
+        transform: scale(0.5);
     }
+
     .introContent {
+        font-size: 7vw; /* Adjusted for smaller screens */
         text-align: left;
         align-items: left;
         align-self: left;
         scale: 70%;
+        padding: 0;
+    }
+
+    .hello {
+        font-size: 6.5vw; /* Adjusted for smaller screens */
+    }
+
+    .para {
+        font-size: 3vw; /* Adjusted for smaller screens */
     }
 }
