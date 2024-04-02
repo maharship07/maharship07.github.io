@@ -57,21 +57,17 @@
 }
 
 #icon1:hover {
-    background-color: #0077B5;
     transition: opacity 0.3s ease;
 }
 
 #icon2:hover {
-    background-color: #333;
     transition: opacity 0.3s ease;
 }
 
 #icon3:hover {
-    background-color: #65c7b8;
     transition: opacity 0.3s ease;
 }
 
 #icon4:hover {
-    background-color: #737779;
     transition: opacity 0.3s ease;
 }
