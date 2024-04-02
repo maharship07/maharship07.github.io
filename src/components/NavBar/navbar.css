@@ -95,7 +95,7 @@
     .mobMenu {
         display: flex;
     }
-    .mobMenu:hover {
+    .mobMenu:hover, .listItem:hover {
         cursor: pointer;
     }
     .desktopMenu, .desktopMenuBtn {

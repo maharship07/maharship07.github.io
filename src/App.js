@@ -6,6 +6,7 @@ import About from './components/About/about';
 import Skills from './components/Skills/skills';
 import Works from './components/Work/works'
 import Contact from './components/Contact/contact';
+import MobSocials from './components/Socials/mobsocial';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Works/>
       <Contact/>
       <Socials/>
+      <MobSocials/>
     </div>
   );
 }

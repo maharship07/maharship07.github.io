@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import './social.css'
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 const SocialMedia = () => {
+    const [showSocial, setShowSocial] = useState(false);
     return (
         <Container>
             <ul className='socials'>
