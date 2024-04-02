@@ -32,7 +32,7 @@ const SocialMedia = () => {
 };
 
 const Container = styled.div`
-    @media (min-width: 1024px) {
+    @media (min-width: 721px) {
         display: flex;
         flex-direction: column;
         position: fixed;
