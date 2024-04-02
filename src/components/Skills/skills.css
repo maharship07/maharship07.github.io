@@ -20,6 +20,15 @@
     color: rgb(236, 194, 194);
 }
 
+.skillColumns {
+    margin: 1.5rem;
+    width: auto;
+    text-align: left;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px; /* Gap between columns */
+}
+
 .skill {
     max-width: 150px; /* Adjust the max-width as needed */
     transition: transform 0.35s ease;
@@ -59,4 +68,17 @@
     color: rgb(236, 194, 194);
     transition: bottom 0.35s ease;
     text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    .skillColumns, .skill {
+        scale: 80%;
+        margin: 0.5rem;
+    } 
+}
+
+@media screen and (max-width:600px) {
+    .skill img {
+        display: none;
+    }
 }

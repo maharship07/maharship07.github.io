@@ -13,7 +13,7 @@ const Skills = () => {
     return (
         <section id='skills'>
             <strong id='title'>Skills</strong>
-            <div className='columns'>
+            <div className='skillColumns'>
                 <span className='skill'>
                     <img src={Java} alt='Java icon' className='icons' />
                     <span>
@@ -39,7 +39,7 @@ const Skills = () => {
                     </span>
                 </span>
             </div>
-            <div className='columns'>
+            <div className='skillColumns'>
                 <span className='skill'>
                     <img src={CSS} alt='CSS icon' className='icons' />
                     <span>

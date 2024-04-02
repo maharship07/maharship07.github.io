@@ -2,7 +2,8 @@
     overflow: hidden;
     width: auto;
     max-width: 100rem;
-    height: 100vh;
+    height: auto;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +23,7 @@
     margin: 1.5rem;
     width: auto;
     text-align: left;
-    display: flex; /* Use flexbox for layout */
+    display: flex;
     justify-content: center; /* Center content horizontally */
     gap: 20px; /* Gap between columns */
 }
@@ -53,4 +54,36 @@
     border-radius: 0.5rem;
     color: rgb(236, 194, 194);
     background: rgb(39, 38, 38);
+}
+
+@media screen and (max-width:768px) {
+    .intro, .description {
+        align-self: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        scale: 80%;
+        margin: 0.5rem;
+    }
+    .intro {
+        font-size: 1.5rem;
+    }
+    .columns {
+        flex-direction: column;
+        /* scale: 120% */
+    }
+    .about {
+        height: 100%;
+        padding: 5rem 5rem;
+    }
+    .description {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .columns, .intro, .description {
+        margin: 0rem;
+        
+    }
 }

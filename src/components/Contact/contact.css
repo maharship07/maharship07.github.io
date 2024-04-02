@@ -73,3 +73,11 @@
 #contact button:hover {
     background-color: #0056b3;
 }
+
+@media screen and (max-width:650px) {
+    #contactMessage {
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+}
