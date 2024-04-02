@@ -17,25 +17,25 @@ const Skills = () => {
                 <span className='skill'>
                     <img src={Java} alt='Java icon' className='icons' />
                     <span>
-                        <p>Java</p>
+                        <p className='skillName'>Java</p>
                     </span>
                 </span>
                 <span className='skill'>
                     <img src={Python} alt='Python icon' className='icons' />
                     <span>
-                        <p>Python</p>
+                        <p className='skillName'>Python</p>
                     </span>
                 </span>
                 <span className='skill'>
                     <img src={SQL} alt='SQL icon' className='icons' />
                     <span>
-                        <p>SQL</p>
+                        <p className='skillName'>SQL</p>
                     </span>
                 </span>
                 <span className='skill'>
                     <img src={HTML} alt='HTML icon' className='icons' />
                     <span>
-                        <p>HTML</p>
+                        <p className='skillName'>HTML</p>
                     </span>
                 </span>
             </div>
@@ -43,25 +43,25 @@ const Skills = () => {
                 <span className='skill'>
                     <img src={CSS} alt='CSS icon' className='icons' />
                     <span>
-                        <p>CSS</p>
+                        <p className='skillName'>CSS</p>
                     </span>
                 </span>
                 <span className='skill'>
                     <img src={JavaScript} alt='JavaScript icon' className='icons' />
                     <span>
-                        <p>JavaScript</p>
+                        <p className='skillName'>JavaScript</p>
                     </span>
                 </span>
                 <span className='skill'>
                     <img src={ReactJS} alt='React.js icon' className='icons' />
                     <span>
-                        <p>React</p>
+                        <p className='skillName'>React</p>
                     </span>
                 </span>
                 <span className='skill'>
                     <img src={AWS} alt='AWS icon' className='icons' />
                     <span>
-                        <p>AWS</p>
+                        <p className='skillName'>AWS</p>
                     </span>
                 </span>
             </div>

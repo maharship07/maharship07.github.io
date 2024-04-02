@@ -22,7 +22,7 @@
 
 .skillColumns {
     margin: 1.5rem;
-    width: auto;
+    width: fit-content;
     text-align: left;
     display: flex;
     justify-content: center; /* Center content horizontally */
@@ -80,5 +80,19 @@
 @media screen and (max-width:600px) {
     .skill img {
         display: none;
+    }
+    .skillName {
+        text-align: left;
+        /* width: 10vw; */
+        padding: 0;
+        margin: 0;
+        height:fit-content;
+        width: fit-content;
+    }
+    .skillColumns {
+        margin: 0;
+        padding: 0;
+        gap: 5;
+        scale: 120%
     }
 }
