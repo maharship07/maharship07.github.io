@@ -22,7 +22,7 @@
 
 .skillColumns {
     margin: 1.5rem;
-    width: fit-content;
+    width: auto;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .skill {
-    max-width: 150px;
+    max-width: auto;
     transition: transform 0.35s ease;
     font-weight: 200;
     font-size: 2rem;
@@ -78,6 +78,9 @@
 }
 
 @media screen and (max-width:600px) {
+    #skills {
+        overflow-x: hidden; /* Allow horizontal scrolling */
+    }
     .skill img {
         display: none;
         margin: 0;
@@ -87,17 +90,29 @@
         transform: none;
     }
     .skill {
-        width: auto;
-        margin: 0;
+        max-width: 30%;
         font-size: 0.5rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-align: center;
+        background: none; /* Remove background */
+        display: flex; /* Use flexbox for alignment */
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
     }
     .skill p {
         width: fit-content;
+        position: static;
+        background-color: transparent;
+        font-size: 1rem;
     }
     .skillName {
         font-size: 0.5rem; /* Adjust font size */
     }
     .skillColumns {
+        flex-direction: row;
+        justify-content: space-evenly; /* Evenly space items */
+        align-items: stretch; /* Ensure all items have equal height */
         margin: 0rem 10rem;
         scale: 1.2; /* Adjust scale */
     }
