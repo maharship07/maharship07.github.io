@@ -1,30 +1,29 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import './social.css'
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 const SocialMedia = () => {
-    const [showSocial, setShowSocial] = useState(false);
     return (
         <Container>
             <ul className='socials'>
                 <li className='social'>
-                    <a className="icon" id='icon1' href="https://www.linkedin.com/in/maharship07" target="_blank">
+                    <a className="icon" id='icon1' href="https://www.linkedin.com/in/maharship07" target="_blank" rel="noopener noreferrer">
                         <span>LinkedIn</span> <FaLinkedin size={24} />
                     </a>
                 </li>
                 <li className='social'>
-                    <a className="icon" id='icon2' href="https://github.com/maharship07?tab=repositories" target="_blank">
+                    <a className="icon" id='icon2' href="https://github.com/maharship07?tab=repositories" target="_blank" rel="noopener noreferrer">
                         <span>GitHub</span> <FaGithub size={24} />
                     </a>
                 </li>
                 <li className='social'>
-                    <a className="icon" id='icon3' href="mailto:patelm0712@gmail.com" target="_blank">
+                    <a className="icon" id='icon3' href="mailto:patelm0712@gmail.com" target="_blank" rel="noopener noreferrer">
                         <span>Email</span> <FaEnvelope size={24} />
                     </a>
                 </li>
                 <li className='social'>
-                    <a className="icon" id='icon4' href="/resume.pdf" target="_blank">
+                    <a className="icon" id='icon4' href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                         <span>Resume</span> <FaFileAlt size={24} />
                     </a>
                 </li>
